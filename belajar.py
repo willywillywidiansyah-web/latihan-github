@@ -43,3 +43,71 @@ print(a)
 # Jika dijalankan, pada baris ini akan error
 #c = true
 #print(c)
+
+#OPERATOR
+# Operator Aritmatika
+a = 4
+b = 2
+# Penjumlahan
+c = a + b
+# Pengurangan
+d = a - b
+# Perkalian
+e = a * b
+# Pembagian
+f = a / b
+# Modulus
+g = a % b
+# Eksponensial
+h = a ** b
+
+# Cetak output
+print(c) # 6
+print(d) # 2
+print(e) # 8
+print(f) # 2
+print(g) # 0
+print(h) # 16
+
+#Operator Perbandingan(Comparison)
+a = 4
+b = 2
+# Penjumlahan
+c = a + b
+# Pengurangan
+d = a - b
+# Perkalian
+e = a * b
+# Pembagian
+f = a / b
+# Modulus
+g = a % b
+# Eksponensial
+h = a ** b
+
+# Cetak output
+print(c) # 6
+print(d) # 2
+print(e) # 8
+print(f) # 2
+print(g) # 0
+print(h) # 16
+
+#Operator Logika
+a = 3
+b = 9
+
+# Contoh Penggunaan "and"
+print(a < 5 and b > 6) # True
+print(a < 5 and b < 6) # False
+print(a > 5 and b < 6) # False
+
+# Contoh Penggunaan "or"
+print(a < 5 or b > 6) # True
+print(a < 5 or b < 6) # True
+print(a > 5 or b < 6) # False
+
+# Contoh Penggunaan "not"
+print(not(a < 5 or b > 6)) # False
+print(not(a > 5 or b < 6)) # True
+
