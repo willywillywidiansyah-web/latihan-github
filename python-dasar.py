@@ -82,3 +82,21 @@ print(x)  # 10
 
 del x
 # print(x)  # ❌ Error karena variable sudah dihapus
+
+# Constants
+PI = 3.14159
+MAX_USERS = 100
+APP_NAME = "Aplikasi Belajar Python"
+#PI = 3.14  # ❌ Secara aturan Python boleh, tapi sebaiknya jangan dilakukan
+
+from constants import PI, GRAVITY, MAX_RETRY
+
+print("Nilai PI:", PI)
+print("Gravitasi:", GRAVITY)
+print("Maksimum Percobaan:", MAX_RETRY)
+TAX_RATE = 0.1  # 10% pajak
+
+harga_barang = 50000
+total = harga_barang + (harga_barang * TAX_RATE)
+
+print("Total harga:", total)
